@@ -1,0 +1,43 @@
+<?php 
+if(!defined('VALID_CMS')) { die('ACCESS DENIED'); } 
+$_CFG = array();
+$_CFG['sitename'] 	= 'svato.loc';
+$_CFG['title_and_sitename'] 	= 1;
+$_CFG['title_and_page'] 	= 1;
+$_CFG['hometitle'] 	= '';
+$_CFG['homecom'] 	= '';
+$_CFG['siteoff'] 	= 0;
+$_CFG['debug'] 	= 0;
+$_CFG['offtext'] 	= '';
+$_CFG['keywords'] 	= '';
+$_CFG['metadesc'] 	= '';
+$_CFG['seourl'] 	= 0;
+$_CFG['lang'] 	= 'ua';
+$_CFG['is_change_lang'] 	= 0;
+$_CFG['sitemail'] 	= 'no-replay@svato.org';
+$_CFG['sitemail_name'] 	= 'svato.loc';
+$_CFG['wmark'] 	= '';
+$_CFG['template'] 	= '_default_';
+$_CFG['splash'] 	= 0;
+$_CFG['slight'] 	= 1;
+$_CFG['db_host'] 	= 'localhost';
+$_CFG['db_base'] 	= 'promodig_svato';
+$_CFG['db_user'] 	= 'promodig_svato';
+$_CFG['db_pass'] 	= 'jsrtffuw';
+$_CFG['db_prefix'] 	= 'ato';
+$_CFG['show_pw'] 	= 1;
+$_CFG['last_item_pw'] 	= 1;
+$_CFG['index_pw'] 	= 0;
+$_CFG['fastcfg'] 	= 1;
+$_CFG['mailer'] 	= 'mail';
+$_CFG['smtpsecure'] 	= '';
+$_CFG['smtpauth'] 	= 0;
+$_CFG['smtpuser'] 	= 'admin';
+$_CFG['smtppass'] 	= '@admin#';
+$_CFG['smtphost'] 	= 'localhost';
+$_CFG['smtpport'] 	= 25;
+$_CFG['timezone'] 	= 'Europe/Kiev';
+$_CFG['timediff'] 	= '2';
+$_CFG['user_stats'] 	= 1;
+$_CFG['allow_ip'] 	= '';
+?>
